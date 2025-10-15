@@ -13,6 +13,7 @@
     justify-content: space-between;
     align-items: center;
     height: 100%;
+    margin: 50px;
 }
 
 .logo {
@@ -22,7 +23,6 @@
 
 .links {
     display: flex;
-    
     gap: 12px;
 }
 
@@ -35,8 +35,10 @@
 .section2-container1 {
     display: flex;
     justify-content: space-between;
-    padding-top: 65px;
+    padding-top: 85px;
     padding-bottom: 65px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .section2-part1 {
@@ -57,7 +59,6 @@
 .signup-button {
     background-color: #3882F6;
     color: #F9FAF8;
-    border-radius: 5px;
     box-shadow: none;
     border: none;
     border-radius: 5px;
@@ -70,7 +71,64 @@
     justify-content: center;
     align-items: center;
     width: 550px;
-} 
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.section3-part2 {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+}
+
+.square-box {
+    border: 5px solid #3882F6;
+    border-radius: 8px;
+    height: 150px;
+    width: 150px;
+}
+
+.text {
+    text-align: center;
+}
+
+.section4 {
+    background-color: #E5E7EB;
+    
+}
+.section4-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 520px;
+}
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    text-align: center;
+    /* width: 500px; */
+    font-style: italic;
+}
+
+.quote-by {
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: 24px;
+}
 
 
 
