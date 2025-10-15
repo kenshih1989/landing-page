@@ -1,0 +1,76 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.section1 {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    height: 60px;
+    /* margin-left: 16px; */
+}
+
+.section1-container1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.links {
+    display: flex;
+    
+    gap: 12px;
+}
+
+
+.section2 {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.section2-container1 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 65px;
+    padding-bottom: 65px;
+}
+
+.section2-part1 {
+    width: 400px;
+}
+
+.main-text {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-top: -28px;
+}
+
+.signup-button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 5px;
+    box-shadow: none;
+    border: none;
+    border-radius: 5px;
+    padding: 3px 16px;
+}
+
+.image-placeholder {
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 550px;
+} 
+
+
+
